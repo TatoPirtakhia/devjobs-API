@@ -5,10 +5,11 @@ info:
   version: 0.1.9
 
 servers:
+  - url: https://devjobs-vaqx.onrender.com/api
+    description: todo server
   - url: http://localhost:3000/api
     description: local server
-  - url: https://todo-api-rsne.onrender.com/api
-    description: todo server
+
 
 paths:
   /job/{size}/{page}:
