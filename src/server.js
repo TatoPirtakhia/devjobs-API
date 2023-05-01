@@ -11,6 +11,7 @@ dotenv.config();
 connect()
 
 app.use(bodyParser.json())
+app.use("/images", express.static("public/storage"));
 app.use(cors());
 app.use('/api',devjobRoute)
 
